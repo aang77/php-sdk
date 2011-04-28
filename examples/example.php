@@ -16,15 +16,19 @@
  * under the License.
  */
 
+    <?php
+	// Awesome Facebook Aplication
+	//
+	// Name: Kamar Mandi Tetangga
+	//
 
-require '../src/facebook.php';
+    require 'facebook-php-sdk/src/facebook.php';
 
-// Create our Application instance (replace this with your appId and secret).
-$facebook = new Facebook(array(
-  'appId'  => '117743971608120',
-  'secret' => '943716006e74d9b9283d4d5d8ab93204',
-  'cookie' => true,
-));
+    $facebook = new Facebook(array(
+      'appId'  => '207716019250312',
+      'secret' => '72031188905bb76a5b9cbb587c327a16',
+      'cookie' => true,
+    ));
 
 // We may or may not have this data based on a $_GET or $_COOKIE based session.
 //
